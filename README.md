@@ -1,14 +1,14 @@
-# ZJU-nCov-Hitcarder
+# ZJU-COVID-19-Reporter
 
 浙大COVID-19健康打卡定时自动脚本
 
- - 可定时，默认为每天6点5分
+ - 可定时，默认为每天8点00分
  - 默认每次提交上次所提交的内容（只有时间部分更新）
  - 系统表单如有更新，在当天自行手机打卡，后面会自动按照你更新后的选项继续打卡
 
  项目用于学习交流，仅用于各项无异常时打卡，如有身体不适等情况还请自行如实打卡~
 
-<img src="https://github.com/Tishacy/ZJU-nCov-Hitcarder/raw/master/demo.png" width="500px"/>
+<img src="https://github.com/chenhk-chn/ZJU-COVID-19-Reporter/raw/master/demo.png" width="500px"/>
 
 > 感谢[conv1d](https://github.com/conv1d)同学，已使用requests直接登录浙大统一认证平台，不再依赖phantomjs
 
@@ -16,7 +16,7 @@
 
 1. clone本项目（为了加快clone速度，可以指定clone深度`--depth 1`，只克隆最近一次commit），并cd到本目录
     ```bash
-    $ git clone https://github.com/chenhk-chn/ZJU-nCov-Hitcarder.git --depth 1
+    $ git clone https://github.com/chenhk-chn/ZJU-COVID-19-Reporter.git --depth 1
     $ cd ZJU-nCov-Hitcarder
     ```
     
@@ -64,7 +64,7 @@
 
 Copyright (c) 2020 tishacy.
 
-Licensed under the [MIT License](https://github.com/Tishacy/ZJU-nCov-Hitcarder/blob/master/LICENSE)
+Licensed under the [MIT License](https://github.com/chenhk-chn/ZJU-COVID-19-Reporter/blob/master/LICENSE)
 
 
 
