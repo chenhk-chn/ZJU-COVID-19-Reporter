@@ -1,6 +1,6 @@
 # ZJU-nCov-Hitcarder
 
-浙大nCov肺炎健康打卡定时自动脚本
+浙大COVID-19健康打卡定时自动脚本
 
  - 可定时，默认为每天6点5分
  - 默认每次提交上次所提交的内容（只有时间部分更新）
@@ -26,7 +26,7 @@
     $ pip3 install -r requirements.txt
     ```
 
-3. 将config.json.templ模板文件重命名为config.json文件，并修改 config.json中的配置
+3. 修改 config.json中的配置
   
     ```javascript
     {
@@ -49,8 +49,8 @@
 ## Tips
 
 - 为了防止电脑休眠或关机时程序不运行，推荐把这个部署到VPS上
-- 测试程序是否正常运行：可以先把定的时间放在最近的一个时间（比如下一分钟）看下到时间是否可以正常打卡
-- 想指定自己打卡地理位置的童鞋可以参考[8#issue](https://github.com/Tishacy/ZJU-nCov-Hitcarder/issues/8#issue-565719250)
+- 测试程序是否正常运行：可以先把定的时间放在最近的一个时间（比如下一分钟）看下到时间是否可以正常打卡 
+- 打卡地址默认设定在浙大玉泉校区信电楼。想指定自己打卡地理位置的童鞋可以参考[8#issue](https://github.com/Tishacy/ZJU-nCov-Hitcarder/issues/8#issue-565719250)
 
 
 ## Thanks
