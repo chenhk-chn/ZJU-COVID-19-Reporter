@@ -16,7 +16,7 @@
 
 1. clone本项目（为了加快clone速度，可以指定clone深度`--depth 1`，只克隆最近一次commit），并cd到本目录
     ```bash
-    $ git clone https://github.com/Tishacy/ZJU-nCov-Hitcarder.git --depth 1
+    $ git clone https://github.com/chenhk-chn/ZJU-nCov-Hitcarder.git --depth 1
     $ cd ZJU-nCov-Hitcarder
     ```
     
