@@ -1,0 +1,8 @@
+{
+    "username": "学号",
+    "password": "密码",
+    "schedule": {
+        "hour": "8",
+        "minute": "0"
+    }
+}
