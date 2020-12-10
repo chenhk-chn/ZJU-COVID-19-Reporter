@@ -97,7 +97,8 @@ class DaKa(object):
         new_info['sfsqhzjkk'] = 1  # 是否申领杭州健康码
         new_info['sqhzjkkys'] = 1  # 杭州健康码颜色，1:绿色 2:红色 3:黄色
         new_info['sfqrxxss'] = 1  # 是否确认信息属实
-        new_info['sfcxldqfhzj'] = 0  # 是否从下列地区返回浙江 0:否
+        new_info['sfhsjc'] = 0  # 是否核酸检测 0:否
+        new_info['sfzx'] = 1  # 是否在校 0:否 1:是
         new_info['jcqzrq'] = ""
         new_info['gwszdd'] = ""
         new_info['szgjcs'] = ""
