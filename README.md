@@ -17,7 +17,7 @@
 1. clone本项目（为了加快clone速度，可以指定clone深度`--depth 1`，只克隆最近一次commit），并cd到本目录
     ```bash
     $ git clone https://github.com/chenhk-chn/ZJU-COVID-19-Reporter.git --depth 1
-    $ cd ZJU-nCov-Hitcarder
+    $ cd ZJU-COVID-19-Reporter
     ```
     
 2. 安装依赖
@@ -33,8 +33,8 @@
         "username": "你的浙大统一认证平台用户名",
         "password": "你的浙大统一认证平台密码",
         "schedule": {
-            "hour": "6",    // 6点
-            "minute": "5"   // 5分 
+            "hour": "8",    // 8点
+            "minute": "0"   // 0分 
         }
     }
     ```
@@ -48,8 +48,8 @@
 
 ## Tips
 
-- 为了防止电脑休眠或关机时程序不运行，推荐把这个部署到VPS上
-- 测试程序是否正常运行：可以先把定的时间放在最近的一个时间（比如下一分钟）看下到时间是否可以正常打卡 
+- 为了防止电脑休眠或关机时程序不运行，推荐把这个部署到VPS或校内服务器上。
+- 测试程序是否正常运行：可以先把定的时间放在最近的一个时间（比如下一分钟）看下到时间是否可以正常打卡。
 - 打卡地址默认设定在浙大玉泉校区信电楼。想指定自己打卡地理位置的童鞋可以参考[8#issue](https://github.com/Tishacy/ZJU-nCov-Hitcarder/issues/8#issue-565719250)
 
 
